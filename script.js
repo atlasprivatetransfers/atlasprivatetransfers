@@ -6,7 +6,7 @@ const phoneDisplay = contact.phoneDisplay || "07 00 00 00 00";
 const phoneHref = contact.phoneHref || "+33000000000";
 const email = contact.email || "contact@transports-atlas.fr";
 const whatsappNumber = contact.whatsappNumber || "33000000000";
-const whatsappMessage = contact.whatsappMessage || "Bonjour Atlas Private, je souhaite réserver un trajet.";
+const whatsappMessage = contact.whatsappMessage || "Hello Atlas Private, I would like to book a journey.";
 const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`;
 
 document.querySelectorAll(".js-phone-link").forEach((link) => {
@@ -31,7 +31,7 @@ document.querySelectorAll(".js-whatsapp-link").forEach((link) => {
 
 form.addEventListener("submit", (event) => {
   event.preventDefault();
-  note.textContent = "Demande bien reçue. Atlas Private revient vers vous rapidement.";
+  note.textContent = "Request received. Atlas Private will get back to you shortly.";
   form.reset();
 });
 

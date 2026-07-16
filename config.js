@@ -3,5 +3,5 @@ window.TRANSPORTS_ATLAS_CONTACT = {
   phoneHref: "+41782587434",
   email: "gvadestination@atlasprivatetransfers.com",
   whatsappNumber: "41782587434",
-  whatsappMessage: "Bonjour Atlas Private, je souhaite réserver un trajet."
+  whatsappMessage: "Hello Atlas Private, I would like to book a journey."
 };
