@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 260" role="img" aria-labelledby="title desc">
+  <title id="title">Atlas Private</title>
+  <desc id="desc">Logo doré Atlas Private avec montagnes stylisées.</desc>
+  <defs>
+    <linearGradient id="gold" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#f8d978"/>
+      <stop offset="0.48" stop-color="#d6a83f"/>
+      <stop offset="1" stop-color="#a87923"/>
+    </linearGradient>
+  </defs>
+  <g fill="url(#gold)">
+    <path d="M70 104 122 52 151 82 206 20 257 86 284 58 350 126 299 90 284 126 257 92 240 120 206 62 165 126 151 96 123 126 112 91z"/>
+    <path d="M140 86 206 20 183 93 165 126z" opacity=".78"/>
+    <path d="M257 86 284 58 276 104 265 96z" opacity=".72"/>
+  </g>
+  <text x="210" y="180" text-anchor="middle" fill="#f2d384" font-family="Georgia, 'Times New Roman', serif" font-size="55" font-weight="700" letter-spacing="5">ATLAS</text>
+  <text x="210" y="222" text-anchor="middle" fill="#f2d384" font-family="Helvetica, Arial, sans-serif" font-size="19" font-weight="700" letter-spacing="22">PRIVATE</text>
+</svg>
